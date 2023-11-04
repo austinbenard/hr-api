@@ -7,10 +7,7 @@ export const config: TypeOrmModuleOptions = {
   "username": "root",
   "password": "1234",
   "database": "hrms",
-
-  // type: "postgres",
-  // url: "postgres://tpacbxqr:sTFyVwry2eqfywi60WOlUYmw9tHlxJ9E@isilo.db.elephantsql.com/tpacbxqr",
-  synchronize: false,
+  synchronize: true,
   logging: true,
   entities: ["dist/**/*.entity{.ts,.js}"]
 } 
